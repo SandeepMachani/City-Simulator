@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG Project3</title>
+    <!-- <script src='https://cdn.plot.ly/plotly-2.16.1.min.js'></script> -->
+</head>
+
+<body>
+    <div style = "font-size:40px;" >Computer Graphics Assignment 5<br/></div>
+    <div style = font-size:30px;><br/> </div>
+    <div style = "font-size:30px;" >1. Use mouse for pan and zoom controls</div>
+    <div style = font-size:30px;>2. Select an object and use keys 'W', 'E' for translation and scaling controls</div>
+    <div style = font-size:30px;>3. Use 'Q' to remove transformation controls and 'R' to delete Object<br/><br/> </div>
+    <div style = font-size:30px;>X-Axis - Along Red Line </div>
+    <div style = font-size:30px;>Y-Axis - Along Green Line </div>
+    <div style = font-size:30px;>Z-Axis - Along Blue Line </div>
+     
+    <canvas class="webgl"></canvas>
+       
+
+    <div style="height: 25px" class="panel">
+        <div style="display:inline-block; float:right" class="box whiteBuilding">
+            <img class="icon" src='./building.jpg' />
+            
+            <div style="display:inline-block; float:right" id='myDiv'></div>
+                <!-- Plotly chart will be drawn inside this DIV -->
+        </div>
+        <div class="box redBuilding">
+            <img class="icon" src='./building2.jpg' />
+        </div>
+        
+    </div>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+    <!-- <div style="display:inline-block;" id="container"></div> -->
+    
+    
+    
+
+
+
+</body>
+
+</html>
